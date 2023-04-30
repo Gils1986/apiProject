@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header" id="header"><h2>Im the header</h2></div>
+    <div class="container" id="container">
+      <div class="leftContainer">
+        <br />
+        <label for="ingredient"
+          ><p>
+            Write the ingredient you want to use and you will get all the
+            recipes include this ingredient
+          </p></label
+        >
+        <input
+          type="text"
+          id="ingredientInput"
+          name="ingredientName"
+          placeholder="Ingredient"
+        />
+        <button id="searchRecipeByIngredient">Search</button>
+        <label for="nutrientsName"
+          ><p>
+            Write the nutrients you want to use and you will get all the recipes
+            include this nutrients at the amount you ask.
+          </p></label
+        >
+        <input
+          type="text"
+          id="nutrientsInput"
+          name="nutrients"
+          placeholder="Nutrients"
+        />
+        <input type="number" id="nutrientsWeight" name="nutrientsWeight" />
+        <button id="searchRecipeByNutrients">Search</button>
+      </div>
+      <div class="rightContainer" id="rightContainer">
+        <div class="upperDiv" id="upperDiv"></div>
+        <div class="lowerDiv" id="lowerDiv"></div>
+      </div>
+      
+    </div>
+    <div class="nutretionsContainer">
+      <div class="nutretionsContainerR"></div>
+      <div class="nutretionsContainerL"></div>
+    </div>
+    <div class="footer" id="footer"><h2>Im the footer</h2></div>
+  </body>
+</html>

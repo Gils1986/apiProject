@@ -1,0 +1,79 @@
+.header {
+  background-color: rgb(17, 154, 154);
+  width: 100%;
+  height: 150px;
+  border: black;
+  text-align: center;
+  border-style: double;
+  margin-bottom: 6px;
+}
+
+.footer {
+  background-color: rgb(17, 154, 154);
+  width: 100%;
+  height: 150px;
+  border: black;
+  text-align: center;
+  border-style: double;
+  margin-top: 10px;
+}
+
+.container {
+  width: 100%;
+  
+
+  display: flex;
+}
+
+.leftContainer {
+  /* width: 25%; */
+  border-style: double;
+  
+}
+
+.rightContainer {
+  /* width: 75%; */
+  /* border-style: double; */
+  /* display: flex; */
+  
+
+  margin-left: 8px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+input {
+  /* width: 20%; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.recipeDiv {
+  border-style: dashed;
+  /* width: 25%; */
+}
+
+ .upperDiv{
+    display: flex;
+   
+    
+}
+
+.lowerDiv{
+    display: flex;
+} 
+
+.nutretionsContainerR{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.nutretionsContainerL{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(54, 196, 32);
+}
+
